@@ -1,0 +1,9 @@
+POST http://localhost:5000/api/v1/openai/generateimage HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+	"prompt": "Llama listening to music",
+    "size": "medium"
+}
+  
